@@ -26,7 +26,6 @@
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
         <span class="psw"><a href="/login">Sign in?</a></span>
     </div>
 </form>
@@ -67,19 +66,6 @@
         opacity: 0.8;
     }
 
-    /* Extra style for the cancel button (red) */
-    .cancelbtn {
-        width: auto;
-        padding: 10px 18px;
-        background-color: #f44336;
-    }
-
-    /* Center the avatar image inside this container */
-    .imgcontainer {
-        text-align: center;
-        margin: 24px 0 12px 0;
-    }
-
 
     /* Add padding to containers */
     .container {
@@ -97,9 +83,6 @@
         span.psw {
             display: block;
             float: none;
-        }
-        .cancelbtn {
-            width: 100%;
         }
     }
 </style>

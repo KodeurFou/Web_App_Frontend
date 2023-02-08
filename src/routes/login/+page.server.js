@@ -13,8 +13,7 @@ export const actions = {
     default: async ({ cookies, request }) => {
 
         const data = await request.formData();
-        console.log(await request)
-        console.log(data)
+
         const username = data.get('username')
         const password = data.get('password')
 
@@ -28,7 +27,7 @@ export const actions = {
         cookies.set('jwt', value, { path: '/' });
 
         const permission = await api.get('users/me', body.jwt)
-        console.log(permission)
+
         if(permission.role == 'admin')
         {
             throw redirect(307, '/locations_admin');

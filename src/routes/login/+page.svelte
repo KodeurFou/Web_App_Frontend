@@ -27,7 +27,6 @@
         </div>
 
         <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
             <span class="psw"><a href="/register">Sign up?</a></span>
         </div>
     </form>
@@ -70,11 +69,6 @@
     }
 
     /* Extra style for the cancel button (red) */
-    .cancelbtn {
-        width: auto;
-        padding: 10px 18px;
-        background-color: #f44336;
-    }
 
 
     /* Add padding to containers */
@@ -93,9 +87,6 @@
         span.psw {
             display: block;
             float: none;
-        }
-        .cancelbtn {
-            width: 100%;
         }
     }
 </style>
