@@ -23,6 +23,7 @@ J'ai réussi à implémenter toutes les US :
  
  
 Feature supplémentaire :
+
   -un bouton logout qui efface les tokens et redirige vers une page de logout
 
 
