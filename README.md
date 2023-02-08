@@ -29,6 +29,8 @@ Feature supplémentaire :
 
 
 
+
+
 Plus en de détails, le site, passé l'authentification se compose d'une page location sur laquelle on peut faire toutes les opérations. Il existe 2 versions de cette page admin et visiteur
 
 L'affichage est fait via un tableau dans lequel sont render à chaque ligne des composant "location" qui contiennent les caractéristique d'un film donné
