@@ -21,14 +21,18 @@ J'ai réussi à implémenter toutes les US :
   
  
  
+ 
 Feature supplémentaire :
   -un bouton logout qui efface les tokens et redirige vers une page de logout
 
 
 
+
 Plus en de détails, le site, passé l'authentification se compose d'une page location sur laquelle on peut faire toutes les opérations. Il existe 2 versions de cette page admin et visiteur
+
 L'affichage est fait via un tableau dans lequel sont render à chaque ligne des composant "location" qui contiennent les caractéristique d'un film donné
 En mode admin il est possible d'éditer directement une location via un form qui s'affiche lorsque le bouton "detail" est pressé, pré-rempli des caractéristiques du film, ou de la supprimer
+
 En mode visiteur on peut simplement afficher une liste contenant les caractéristique
 
 Pour ajouter une location, il suffit d'en mode admin, cliquer sur "Add film" et de remplir le form
