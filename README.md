@@ -6,12 +6,12 @@ J'ai utilisé votre backend
 Pour faire tourner le site il suffit de lancer le front et le back en s'assurant que le port du backend soit bien 3000
 
 J'ai réussi à implémenter toutes les US :
-  -register/login
-  -redirection si accès à locations sans authentification
-  -affichage d'informations relatives à un film en appuyant sur le bouton "detail"
-  -possibilité d'ajouter un film à la DB (en admin)
-  -possibilité d'éditer les informations relatives à un film (en admin)
-  -possibilité de supprimer films (en admin)
+    -register/login
+    -redirection si accès à locations sans authentification
+    -affichage d'informations relatives à un film en appuyant sur le bouton "detail"
+    -possibilité d'ajouter un film à la DB (en admin)
+    -possibilité d'éditer les informations relatives à un film (en admin)
+    -possibilité de supprimer films (en admin)
   
  
 Feature supplémentaire :
