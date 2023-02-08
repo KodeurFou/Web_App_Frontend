@@ -1,38 +1,44 @@
-# create-svelte
+Web Application - TD Frontend
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+J'ai utilisé votre backend
 
-If you're seeing this, you've probably already done this step. Congrats!
+Pour faire tourner le site il suffit de lancer le front et le back en s'assurant que le port du backend soit bien 3000
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+J'ai réussi à implémenter toutes les US :
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+    -register/login
+    
+    -redirection si accès à locations sans authentification
+    
+    -affichage d'informations relatives à un film en appuyant sur le bouton "detail"
+   
+    -possibilité d'ajouter un film à la DB (en admin)
+    
+    -possibilité d'éditer les informations relatives à un film (en admin)
+    
+    -possibilité de supprimer films (en admin)
+  
+ 
+ 
+ 
+Feature supplémentaire :
 
-## Developing
+  -un bouton logout qui efface les tokens et redirige vers une page de logout
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+Plus en de détails, le site, passé l'authentification se compose d'une page location sur laquelle on peut faire toutes les opérations. Il existe 2 versions de cette page admin et visiteur
 
-You can preview the production build with `npm run preview`.
+L'affichage est fait via un tableau dans lequel sont render à chaque ligne des composant "location" qui contiennent les caractéristique d'un film donné
+En mode admin il est possible d'éditer directement une location via un form qui s'affiche lorsque le bouton "detail" est pressé, pré-rempli des caractéristiques du film, ou de la supprimer
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+En mode visiteur on peut simplement afficher une liste contenant les caractéristique
+
+Pour ajouter une location, il suffit d'en mode admin, cliquer sur "Add film" et de remplir le form
+
+
+ 
